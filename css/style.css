@@ -1,0 +1,73 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: gray;
+    height: 100vh;
+    width: 80%;
+    margin:10px auto;
+}
+
+/*HEADER*/
+
+.header-menu{
+    background-color: #ce57e6;
+    width: 100%;
+    height: 80px;
+}
+
+.header-box{
+    background-color: #e6c757;
+    width: 100%;
+    height: 300px;
+}
+/*FINE HEADER*/
+
+/*MAIN*/
+
+.container{
+    background-color: royalblue;
+    width: 100%;
+    height: 350px;
+}
+
+.main-row{
+    background-color: #86c1fc;
+    width: 100%;
+    height: 50px;
+}
+
+.main-box{
+    background-color: royalblue;
+    width: 100%;
+    }
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna-left,
+.colonna-right{
+    background-color: green;
+    width: 20%;
+    height: 300px;
+
+}
+
+.colonna-center{
+    background-color: blue;
+    width: 60%;
+    height: 300px;
+    
+
+}
